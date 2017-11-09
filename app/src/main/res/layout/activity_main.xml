@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.net.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/factory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Factory"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/abstractFactory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="abstractFactory"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/singleton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Singleton"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/builder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Builder"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prototype"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Prototype"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/adapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Adapter"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/decorator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Decorator"
+            android:textSize="@dimen/normal_text_size" />
+
+        <Button
+            android:id="@+id/proxy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Proxy"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/facade"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Facade"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/bridge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Bridge"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/composite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Composite"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/flyweight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Flyweight"
+            android:textSize="@dimen/normal_text_size"
+            android:visibility="visible"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/strategy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Strategy"
+            android:textSize="@dimen/normal_text_size" />
+        <Button
+            android:id="@+id/template"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Template"
+            android:textSize="@dimen/normal_text_size"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+
+</LinearLayout>
